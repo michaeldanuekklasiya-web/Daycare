@@ -16,16 +16,20 @@ Daycare adalah layanan yang menyediakan perawatan dan pengawasan bagi anak-anak 
 -. Guru/Staff Daycare: Mengelola kehadiran, mengisi catatan perkembangan, dan aktivitas harian anak. <br>
 -. Orang Tua/Wali: Melihat laporan perkembangan anak, jadwal, dan memberikan preferensi serta permintaan khusus. <br>
 
-## System Actors and Their Actions
+## Use Case
+![UML class (2)](https://github.com/michaeldanuekklasiya-web/Daycare/assets/88574532/4ace2c81-d7d0-49e7-8ab4-3f584a5d816c)
 
-| Use Case         | Actor             | Description                                                                                      | Actions                                                                                                                 |
-|------------------|-------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| Manage Child Data| Admin             | Admin manages child data.                                                                        | Add, update, or delete child data.                                                                                      |
-| Manage Parent Data| Admin            | Admin manages parent/guardian data.                                                              | Add, update, or delete parent/guardian data.                                                                            |
-| Manage Staff Data| Admin             | Admin manages staff data.                                                                        | Add, update, or delete staff data.                                                                                      |
-| Manage Schedules | Admin, Teacher/Staff | Manage schedules for children’s activities and staff work schedules.                              | Add, update, or delete schedules.                                                                                       |
-| Manage Attendance| Admin, Teacher/Staff | Record attendance for children and staff.                                                        | Record or update child and staff attendance.                                                                            |
-| Generate Reports | Admin, Parent/Guardian | Generate and view child development reports.                                                    | Admin generates reports; Parents/Guardians view development reports.                                                    |
+## Aktor Sistem dan Tindakan Mereka
+
+| Use Case              | Aktor             | Deskripsi                                                                                      | Tindakan                                                                                                                 |
+|-----------------------|-------------------|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Mengelola Data Anak   | Admin             | Admin mengelola data anak.                                                                     | Menambahkan, memperbarui, atau menghapus data anak.                                                                     |
+| Mengelola Data Orang Tua/Wali | Admin    | Admin mengelola data orang tua/wali.                                                           | Menambahkan, memperbarui, atau menghapus data orang tua/wali.                                                           |
+| Mengelola Data Staf   | Admin             | Admin mengelola data staf.                                                                     | Menambahkan, memperbarui, atau menghapus data staf.                                                                     |
+| Mengelola Jadwal      | Admin, Guru/Staf  | Mengelola jadwal kegiatan anak dan jadwal kerja staf.                                          | Menambahkan, memperbarui, atau menghapus jadwal.                                                                        |
+| Mengelola Kehadiran   | Admin, Guru/Staf  | Mencatat kehadiran anak dan staf.                                                              | Mencatat atau memperbarui kehadiran anak dan staf.                                                                      |
+| Menghasilkan Laporan  | Admin, Orang Tua/Wali | Menghasilkan dan melihat laporan perkembangan anak.                                             | Admin menghasilkan laporan; Orang Tua/Wali melihat laporan perkembangan anak.                                           |
+
 
 
 ## Diagram Kelas
