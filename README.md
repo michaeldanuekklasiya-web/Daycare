@@ -16,5 +16,17 @@ Daycare adalah layanan yang menyediakan perawatan dan pengawasan bagi anak-anak 
 -. Guru/Staff Daycare: Mengelola kehadiran, mengisi catatan perkembangan, dan aktivitas harian anak. <br>
 -. Orang Tua/Wali: Melihat laporan perkembangan anak, jadwal, dan memberikan preferensi serta permintaan khusus. <br>
 
+## System Actors and Their Actions
+
+| Use Case         | Actor             | Description                                                                                      | Actions                                                                                                                 |
+|------------------|-------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Manage Child Data| Admin             | Admin manages child data.                                                                        | Add, update, or delete child data.                                                                                      |
+| Manage Parent Data| Admin            | Admin manages parent/guardian data.                                                              | Add, update, or delete parent/guardian data.                                                                            |
+| Manage Staff Data| Admin             | Admin manages staff data.                                                                        | Add, update, or delete staff data.                                                                                      |
+| Manage Schedules | Admin, Teacher/Staff | Manage schedules for children’s activities and staff work schedules.                              | Add, update, or delete schedules.                                                                                       |
+| Manage Attendance| Admin, Teacher/Staff | Record attendance for children and staff.                                                        | Record or update child and staff attendance.                                                                            |
+| Generate Reports | Admin, Parent/Guardian | Generate and view child development reports.                                                    | Admin generates reports; Parents/Guardians view development reports.                                                    |
+
+
 ## Diagram Kelas
 ![UML class (1)](https://github.com/michaeldanuekklasiya-web/Daycare/assets/88574532/1320e621-5b2c-4edd-8ed4-221462bbcbaf)
